@@ -17,6 +17,7 @@ func Sigmoid(x *mat.Dense) *mat.Dense {
 	return result
 }
 
+// TODO: Add regularization term
 type LogisticRegression struct {
 	w            *mat.Dense
 	learningRate float64
@@ -36,6 +37,7 @@ func NewLogisticRegression(n_dim int, learningRate float64, nIterations int) *Lo
 	}
 }
 
+// TODO: Convergence judgment
 func (lr *LogisticRegression) Fit(X *mat.Dense, y *mat.Dense) {
 	for i := 0; i < lr.nIterations; i++ {
 		r, c := X.Dims()
