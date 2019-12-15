@@ -10,3 +10,4 @@
 ### Supervised Learning
 
 - [Logistic Regression](https://github.com/kishimoto-banana/Go-ML-From-Scratch/blob/master/supervised/logistic_regression.go)
+- [k-nearest neighbor](https://github.com/kishimoto-banana/Go-ML-From-Scratch/blob/master/supervised/knn.go)
