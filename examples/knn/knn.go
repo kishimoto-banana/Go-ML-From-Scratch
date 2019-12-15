@@ -46,6 +46,5 @@ func main() {
 
 	knn := supervised.NewKNN(k)
 	yPred := knn.Predict(X, X, y)
-	// matPrint(y)
 	matPrint(yPred)
 }
